@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway&display=swap"
+      rel="stylesheet"
+    />
+    <link href="main.css" type="text/css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="header">
+      <!-- <h1 style="text-align: center">Marvel Cinematic Universe</h1> -->
+      <img
+        src="./Marvel_Cinematic_Universe_logo.png"
+        alt="Photo that reads Marvel Cinematic Universe"
+      />
+      <nav class="navigation">
+        <ul>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./AboutMe.html">About</a></li>
+          <li><a href="./iron_man_with_css.html">Iron Man</a></li>
+          <li><a href="./black_panther_with_css.html">Black Panther</a></li>
+          <li class="active"><a href="./contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="content">
+      <article>
+        <form method="POST" action="mailto:brentdolan@webster.edu">
+          <h2>Contact Me</h2>
+          <div>
+            <div class="field">
+              <label for="first_name">First Name</label>
+              <input placeholder="Tony" type="text" id="first_name" />
+            </div>
+            <div class="field">
+              <label for="last_name">Last Name</label>
+              <input placeholder="Stark" type="text" id="last_name" />
+            </div>
+            <div class="field">
+              <label for="email_address">Email Address</label>
+              <input
+                placeholder="iamironman@starkenterprises.com"
+                type="text"
+                id="email_address"
+              />
+            </div>
+          </div>
+          <div>
+            <div class="best">
+              <p>Best Marvel Movie:</p>
+              <div>
+                <div class="radio">
+
+                  <input
+                  name="best_marvel_movie"
+                  type="radio"
+                  value="Iron Man"
+                  id="Iron-Man"
+                  checked
+                  />
+                  <label for="Iron-Man">Iron Man</label>
+                </div>
+                <div class="radio">
+
+                  <input
+                  name="best_marvel_movie"
+                  type="radio"
+                  value="Black Panther"
+                  id="Black-Panther"
+                  />
+                  <label for="Black-Panther">Black Panther</label>
+                </div>
+                <div class="radio">
+
+                  <input
+                  name="best_marvel_movie"
+                  type="radio"
+                  value="Captain America and the Winter Soldier"
+                  id="Captain-America-and-the-Winter-Soldier"
+                  />
+                  <label for="Captain-America-and-the-Winter-Soldier"
+                  >Captain America and the Winter Soldier</label
+                  >
+                </div>
+                <div class="radio">
+
+                  <input
+                  name="best_marvel_movie"
+                  type="radio"
+                  value="Avengers Endgame"
+                  id="Avenger-Endgame"
+                  />
+                  <label for="Avenger-Endgame">Avenger Endgame</label>
+                </div>
+                <div class="radio">
+
+                  <input
+                  name="best_marvel_movie"
+                  type="radio"
+                  value="Thor Ragnarok"
+                  id="Thor-Ragnarok"
+                  />
+                  <label for="Thor-Ragnarok">Thor Ragnarok</label>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="question">
+              <label for="question_comment">Question or Comment</label>
+              <textarea
+                placeholder="Why is there not more Iron Man content?"
+                id="question_comment"
+              ></textarea>
+            </div>
+          </div>
+          <div class="buttons">
+
+            <button type="reset">Reset</button>
+            <button type="submit">Submit</button>
+          </div>
+        </form>
+      </article>
+       <a href="#top">Back To Top</a>
+      <footer>Created by Brent Dolan on 8/29/21</footer>
+    </div>
+  </body>
+</html>
